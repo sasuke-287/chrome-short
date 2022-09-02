@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "conversionYoutubeShortURL",
+    "description": "youtubeのショート動画URLを通常URLに変換する",
+    "version": "1.0",
+    "background" : {
+     "scripts" : ["background.js"]
+   },
+    "permissions" : [
+      "contextMenus",
+      "clipboardRead"
+    ]
+}
